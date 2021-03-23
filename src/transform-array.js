@@ -1,5 +1,4 @@
 module.exports = function transform(arr) {
-  console.log(arr);
   const result = [...arr];
   result.forEach((e, i) => {
     switch (e) {
